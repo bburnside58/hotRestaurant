@@ -1,11 +1,13 @@
 //Dependencies
 var path = require('path');
 
+
 // Routes
 // =============================================================
 
-var routes = function(app) {
+module.exports = function(app){
 
+	
 	// Basic route that sends the user first to the AJAX Page
 	app.get('/', function(req, res){
 		
@@ -27,4 +29,4 @@ var routes = function(app) {
 
 };
 
-exports.routes = routes;
+
